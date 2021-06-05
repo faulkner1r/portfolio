@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bruce Bauer - E-Commerce Lectures and Resources</title>
+    <meta name="description" content="E-Commerce and Information Technology Lectures">
+    <meta name="keywords" content="E-Commerce, HTML, CSS, PHP ,JavaScript">
+    <meta name="author" content="Bruce Bauer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style/studentportfolio.css">
+</head>
+body>
+    <div id="container">
+        <h1></h1>
+
+        
+</div>
+<script type="text/javascript" src="assets/scripts/index.js"></script>
+</body>
+</html>
