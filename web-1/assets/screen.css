@@ -12,7 +12,12 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-
+.header-img {
+  width: 100%;
+  height: 400px;
+  background: img src="web-1/assets/images/webpage-header.jpg";
+  background-size: cover;
+}
 p {
 	margin-bottom: 20px;
 	}
