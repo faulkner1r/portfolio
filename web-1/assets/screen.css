@@ -7,13 +7,7 @@ body {
 div.content {
 	width: 800px;
 }
-#container {
-	width: 80px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
+
 .header-img {
   width: 100%;
   height: 400px;
@@ -23,7 +17,7 @@ div.content {
 p {
 	margin-bottom: 20px;
 	}
-#borderimg {
+.borderimg {
 	border: 10px solid transparent;
   padding: 15px;
   border-image: url(webpage-background.jpg) 30 round;
