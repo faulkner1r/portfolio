@@ -21,7 +21,11 @@ body {
 p {
 	margin-bottom: 20px;
 	}
-
+#borderimg {
+	border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(webpage-background.jpg) 30 round;
+}
 .listmargin  {
 	margin-bottom: 20px;
 }	
