@@ -108,11 +108,13 @@ body {
 
 
 #nav  {
-	background-color: #FFF;
+	border: black; 
+	background-color: black;
 	margin: 0px;
+	font-color: white;
 	padding: 10px;
 	float: none;
-	width: 880px;
+	width: 800px;
 }
 
 #nav ul {
@@ -141,8 +143,9 @@ body {
 
 
 #footer  {
-	clear: both;
+	border: black;
 	padding: 10px;
 	font-size: small;
-	text-align: center;
+	font-color: white;
+	text-align: left;
 }
