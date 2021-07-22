@@ -21,6 +21,10 @@ body {
 	margin: 10px;
 	border: .2em solid #FFF;
 }
+#content img-style-1{
+	width: 100px;
+	height: auto;
+}
 #content img:hover {
 	border: .2em solid #900;
 }
