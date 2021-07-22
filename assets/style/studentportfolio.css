@@ -22,6 +22,8 @@ p {
 }	
 
 .img-style-1 {
+	width: 50px;
+	height: 50px;
 	float: left;
 	margin-right: 10px;
     margin-bottom: 5px;
