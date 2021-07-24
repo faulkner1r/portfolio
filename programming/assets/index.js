@@ -1,11 +1,17 @@
-// 1. Using console.log()
-console.log("Hello World");
-// console.log() is used in debugging the code.
+/* This script will display the greeting based on the current time input.*/
 
-// 2. Using alert()
-alert("Hello, World!");
-// // The alert() method displays an alert box over the current window with the specified message.
+var today = new Date();
+var hourNow = today.getHours();
+var welcome;
 
-// 3. Using document.write()
-document.write("Hello, World!");
-// // document.write() is used when you want to print the content to the HTML document.
+//Display appropriate greeting based on current time
+if (hoursNow > 18) {
+  welcome = 'Good evening';
+} else if (hourNow > 12) {
+  welcome = 'Good Afternoon';
+} else if (hourNow > 0) {
+  welcome = 'Good Morning';
+} else {
+  welcome ='Welcome';
+}
+document.write(welcome);
