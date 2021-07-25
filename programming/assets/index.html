@@ -22,18 +22,29 @@
          <br>
          Rank:<br> <input type="text" name="rank">
       </form>
-<body>
-   <input type="text" id="txtInput" placeholder="Enter a number">
-   <button type="button" onclick="result();">GetANumber</button>
-</body>
-<script>
-   function result() {
-      var numberValue = document.getElementById("txtInput").value;
-      if (!isNaN(numberValue))
-         console.log("The value=" + parseInt(numberValue));
-      else
-         console.log("Please enter the integer value..");
-   }
+<div class="game">
+    <h1>Coinflip</h1>
+    <p>Bet 10 coins per flip. Win 10 / or lose them!</p>
+
+    <ul class="stats">
+        <li>Coins: <span id="coinsAmount">0</span></li>
+        <li>Flips: <span id="flipAmount">0</span></li>
+        <li>Win: <span id="winAmount">0</span></li>
+        <li>Lose: <span id="loseAmount">0</span></li>
+        <li>Streak: <span id="streakAmount">0</span></li>
+        <li>Chance: <span id="luckAmount">0</span>%</li>
+    </ul>
+
+    <div class="main">
+        <a href="#" class="btn btn--primary" id="flipCoin">FLIP COIN!</a>
+    </div>
+
+    <a href="#" class="btn btn--small" id="getCoins">Get Free Coins</a>
+    <a href="#" class="btn btn--small btn--secondary" id="reset">Reset</a>
+
+
+    <div class="msg" id="status"></div>
+</div>
 </script>
 </html>
  
