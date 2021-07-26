@@ -38,13 +38,22 @@
             <p>The "alt" attribute gives written description of an image in html if the image cannot be displayed for any reason. The "title" attribute shows what the image is
             to the reader or viewer as theyhover over the image. These two attributes are not interchangable.</p>
         <h4>Please provide an example of how to mark up a definition from the dictionary.</h4>
-            <p>There are a couple of different elements you can use when marking definitions. One is the "<dfn>" element that changes the look of the defined word. For more 
+            <p>There are a couple of different elements you can use when marking definitions. One is the &lt;<dfn>&gt; element that changes the look of the defined word. For more 
                 formal definitions you can use the aria-describedby attribute. The markup for this is:</p>
                 <br>
-                <p> "<span id="ff"></p>
-                <p>"<dfn aria-describedby="ff">portfolio</dfn>"</p>
+                <p> &lt;<span id="ff">&gt;</p>
+                <p>&lt;<dfn aria-describedby="ff">&gt;portfolio&lt;</dfn>&gt;</p>
                 <p>is a selection of a student's work (such as papers and tests) compiled over a period of time and used for assessing performance or progress.</p>
-                <p></span></p>
+                <p>&lt;</span>&gt;</p>
+<br>
+<p>It displays on the web like this:</p>
+<p>
+  <span id="ff">
+    <dfn aria-describedby="ff">Firefox</dfn>
+    is the web browser created by the Mozilla Foundation.
+  </span>
+  You can download it at <a href="https://www.mozilla.org">mozilla.org</a>
+</p>
         <h4>Provide an example of link pointing to you favorite site</h4>
             <p><a href="http://www.dallascowboys.com">Dallas Cowboys Website</a></p>
         <div id="footer">
