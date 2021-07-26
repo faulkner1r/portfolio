@@ -64,7 +64,7 @@ body {
 	float: none;
 	margin-right: auto;
 	margin-left: 0px;
-	width: 880px;
+	width: 800px;
 	background-color: #FFF;
 	padding: 10px;
 }
@@ -86,7 +86,7 @@ body {
 #content p {
 	padding-top: 5px;
 	padding-bottom: 15px;
-	margin-left: 5px;
+	margin-left: 1px;
 	line-height: 1.4em;
 }
 #content ol , #content ul, #content dd,  #nav ul{
@@ -109,7 +109,7 @@ body {
 #content ul li {
 	padding-top: .5em;
 	padding-bottom: .5em;
-	padding-left: 8px;
+	padding-left: 1px;
 }
 
 
