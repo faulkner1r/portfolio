@@ -29,7 +29,11 @@ p {
     margin-bottom: 5px;
 	padding: 5px;
 	border: 1px solid #CCC;
-}	
+}
+.site-image {
+	width: 400px;
+	height: auto;
+}
 	
 /* tutorial styles */
 
